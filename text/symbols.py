@@ -13,6 +13,7 @@ _letters = 'ع ث پ ض د خ ط ۶ ۵  ؔ ه ۹ غ ظ ﷲ ة گ ؤ ح ك ن ﺅ
 
 # Prepend "@" to ARPAbet symbols to ensure uniqueness (some are the same as uppercase letters):
 _arpabet = ['@' + s for s in cmudict.valid_symbols]
+print("checking")
 
 # Export all symbols:
 symbols = [_pad] + list(_special) + list(_punctuation) + list(_letters) + _arpabet
